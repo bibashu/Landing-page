@@ -161,15 +161,45 @@ body {
 }
 .box2 {
   background-color: aquamarine;
-  background: url("images/canvas.png") no-repeat;
+  background: url("images/canvas0.jpeg") no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 .box3 {
   background-color: aquamarine;
   background: url("images/html-css.jpeg") no-repeat;
   background-position: center;
+  background-size: cover;
+}
+.box4 {
+  background-color: aquamarine;
+  background: url("images/java.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.box5 {
+  background-color: aquamarine;
+  background: url("images/html-css.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.box6 {
+  background-color: aquamarine;
+  background: url("images/canvas0.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.box7 {
+  background-color: aquamarine;
+  background: url("images/wordpress.png") no-repeat;
+  background-position: center;
   background-size: contain;
+}
+.box8 {
+  background-color: aquamarine;
+  background: url("images/canvas0.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .section5 {
   width: 100%;
@@ -295,13 +325,47 @@ body {
 }
 .section6 .text {
   width: 100%;
-  margin: 80px auto;
+  margin:  40px;
   position: absolute;
   /* border: 2px solid red; */
   text-align: center;
   top: 0;
   /* flex: 1 1 200px; */
 }
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+
+  margin-top: 200px;
+  
+  
+}
+.card{
+  width: 305px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  /* border: 2px solid red; */
+  margin-bottom: 100px;
+}
+.card img{
+  width: 100%;
+  height: auto;
+}
+.card-content{
+  padding: 10px;
+}
+.card-content p{
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 8px;
+  /* background-color: blue; */
+  height: 100px;
+  padding: 40px;
+}
+
 .section7 {
   width: 100%;
   align-content: center;
@@ -326,32 +390,10 @@ body {
   font-size: 18px;
 }
 
-.section6 .box-person {
-  width: 100%;
-  /* border: 2px solid red; */
-  /* margin-top: 40px; */
-  display: flex;
-  flex-direction: row;
-  /* height: 100%; */
-  margin-top: 200px;
-  gap: 30px;
-  padding-top: 50px;
-  flex-flow: row wrap;
-  margin-bottom: 40px;
-  /* justify-content: space-around; */
-}
-.box-person .box {
-  /* border: 2px solid red; */
-  /* flex: 1 1 0; */
-  /* width: 100%; */
-  display: flex;
-  padding: 0;
-  height: 300px;
-}
-.box-person1 {
-  background: url("images/user1.jpeg") no-repeat;
-  background-size: 100%;
-}
+
+
+
+
 footer {
   display: flex;
   align-items: center;
